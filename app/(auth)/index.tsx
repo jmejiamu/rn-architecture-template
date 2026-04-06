@@ -13,8 +13,13 @@ const Login = () => {
     dispatch(login());
   };
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <Text>Login</Text>
+    <SafeAreaView style={{ flex: 1, marginHorizontal: 20 }}>
+      <Text style={{ fontSize: 24, fontWeight: "bold", marginBottom: 20 }}>
+        React Native Architecture Template
+      </Text>
+      <Text style={{ fontSize: 18, fontWeight: "bold", marginBottom: 20 }}>
+        Login
+      </Text>
       <TouchableOpacity onPress={() => router.replace("/register")}>
         <Text>Go to Register</Text>
       </TouchableOpacity>
