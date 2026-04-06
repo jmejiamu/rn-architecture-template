@@ -9,7 +9,7 @@ const Register = () => {
     <SafeAreaView style={{ flex: 1 }}>
       <Text>Register</Text>
 
-      <TouchableOpacity onPress={() => router.replace("/login")}>
+      <TouchableOpacity onPress={() => router.replace("/")}>
         <Text>Go to Login</Text>
       </TouchableOpacity>
     </SafeAreaView>
