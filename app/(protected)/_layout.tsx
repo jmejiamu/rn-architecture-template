@@ -9,6 +9,20 @@ export default function ProtectedLayout() {
           headerShown: false,
         }}
       />
+      <Stack.Screen
+        name="(stack)"
+        options={{
+          headerShown: false,
+        }}
+      />
+
+      <Stack.Screen
+        name="(modal)"
+        options={{
+          headerShown: false,
+          presentation: "modal",
+        }}
+      />
     </Stack>
   );
 }

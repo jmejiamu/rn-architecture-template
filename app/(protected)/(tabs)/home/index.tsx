@@ -1,13 +1,9 @@
+import { HomeScreen } from "@/src/features/home/screens/HomeScreen";
 import React from "react";
-import { StyleSheet, Text } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { StyleSheet } from "react-native";
 
 const Home = () => {
-  return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <Text>Home</Text>
-    </SafeAreaView>
-  );
+  return <HomeScreen />;
 };
 
 export default Home;
