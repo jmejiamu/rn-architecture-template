@@ -9,6 +9,12 @@ export default function StackLayout() {
           headerShown: false,
         }}
       />
+      <Stack.Screen
+        name="profile/account-center"
+        options={{
+          headerShown: false,
+        }}
+      />
     </Stack>
   );
 }
